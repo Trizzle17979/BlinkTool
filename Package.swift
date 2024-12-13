@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "BlinkTool",
     platforms: [
-        .macOS(.v10_15)
+        .macOS(.v15)
     ],
     products: [
         .executable(name: "BlinkTool", targets: ["BlinkTool"])
